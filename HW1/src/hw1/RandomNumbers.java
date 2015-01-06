@@ -11,6 +11,9 @@ import java.util.*;
  */
 public class RandomNumbers {
     
+    /**
+     * Tests the random variables to determines if equal greater or less
+     */
     public void randtest()
     {
         Random rand = new Random();

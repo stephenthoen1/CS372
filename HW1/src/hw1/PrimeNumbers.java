@@ -11,6 +11,10 @@ package hw1;
  */
 public class PrimeNumbers {
     
+    /**
+     * The prime numbers are searched from one to 100. 
+     * The prime numbers are outputted
+     */
     public static void searchprime() {
         for (int i = 2; i < 100; i++) {
             for (int s = 2; s <= i; s++) {

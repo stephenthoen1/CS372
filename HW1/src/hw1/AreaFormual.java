@@ -10,8 +10,16 @@ package hw1;
  * @author stephenthoen
  */
 public class AreaFormual {
+    
+    /**
+     * PI constant defined
+     */
     public static double PI = 3.14; 
     
+    /**
+     * Area calculation
+     * @author Stephen Thoen
+     */
     public static double area(double a)
     {
         return PI*Math.pow(a, 2);
