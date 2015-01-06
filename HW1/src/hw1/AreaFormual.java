@@ -6,7 +6,7 @@
 package hw1;
 
 /**
- *
+ * Area Formula Initializes the constant PI and then calculates the area.
  * @author stephenthoen
  */
 public class AreaFormual {

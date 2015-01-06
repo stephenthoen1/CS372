@@ -6,16 +6,11 @@
 package hw1;
 
 /**
- *
+ * Adds a copyright message to my code.
  * @author stephenthoen
  */
-
-/**
- * This initializes the variables for the dataOnly Class
- * 
- */
-public class DataOnly {
-     int i;
-     float f;
-     boolean b;
+public class ProgramInfo {
+    public static void copyrightmessage(){
+        System.out.println("Owned and Maintained @Stephen Thoen\n\n");
+    }
 }

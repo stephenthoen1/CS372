@@ -7,11 +7,10 @@ package hw1;
 import java.util.*;
 
 /**
- *
+ * This class contains my main for the HW1 exercises
  * @author stephenthoen
  */
 public class HW1 {
-   
     
     /**
      * @param args the command line arguments
@@ -19,11 +18,11 @@ public class HW1 {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        ProgramInfo.copyrightmessage(); //copywrite
+        
+        
         //Exerise 1
-        /**
-        * @see DataOnly
-        */
-         System.out.println("Exercise Number 1\n");
+        System.out.println("Exercise Number 1\n");
         DataOnly d = new DataOnly();
         d.i = 47;
         d.f = 12.12f; // ‘f’ after number indicates float constant
@@ -36,11 +35,11 @@ public class HW1 {
         
         //Exercise 2 (2.7)
         
-//        
-//        for(int i = 0; i < 3; i++)
-//        {
-//            System.out.println(args[i]);
-//        }
+        
+        for(int i = 0; i < 3; i++)
+        {
+            System.out.println(args[i]);
+        }
         
         //Exercise 3
         /**
@@ -52,24 +51,27 @@ public class HW1 {
         
         //Exercise 4
          System.out.println("\n\nExercise Number 4\n");
-        AreaFormual af = new AreaFormual();
         
         System.out.println("Please Enter the Radius of the Circle: ");
         Scanner s = new Scanner(System.in);
-        //area method
         double x = s.nextDouble();
-        double total = af.area(x);
+        double total = AreaFormual.area(x); //Calculates the Area
         System.out.printf("The area of the circle = %-1.2f\n", total );
         
         
         //Exercise 5
         System.out.println("\n\nExercise Number 5\n");
-        
         RandomNumbers random = new RandomNumbers();
         
         for(int i = 0; i < 25; i++)
             random.randtest();
         
+        
+        //Exercise 6
+        
+        System.out.println("\n\nExercise Number 6\n\n");
+        
+        PrimeNumbers.searchprime();
         
         
     }

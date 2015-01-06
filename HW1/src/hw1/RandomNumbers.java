@@ -6,7 +6,7 @@
 package hw1;
 import java.util.*;
 /**
- *
+ *Contains the random number tests for equals, greater than, less than.
  * @author stephenthoen
  */
 public class RandomNumbers {
