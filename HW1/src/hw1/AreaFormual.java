@@ -18,6 +18,8 @@ public class AreaFormual {
     
     /**
      * Area calculation
+     * @param a the radius of the circle being passed in.
+     * @return area is returned
      * @author Stephen Thoen
      */
     public static double area(double a)
