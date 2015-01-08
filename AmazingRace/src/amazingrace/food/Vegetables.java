@@ -9,22 +9,14 @@ package amazingrace.food;
  *
  * @author stephenthoen
  */
-public class Coffee extends FoodItem {
+public class Vegetables extends FoodItem {
 
-    public Coffee(int weight, int volume) {
+    public Vegetables(int weight, int volume) {
 
         super(weight, volume);
 
     }
-
-    public void Grind() {
-
-        System.out.println("grinding ...");
-
+     public String toString() {
+        return "Veggies";
     }
-    
-    public String toString() {
-        return "Coffee";
-    }
-
 }

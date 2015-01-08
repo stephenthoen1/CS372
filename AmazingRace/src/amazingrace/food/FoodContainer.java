@@ -18,6 +18,8 @@ public class FoodContainer {
     public void addItem(FoodItem f)
     {
         foodarray.add(f);
+        System.out.println(f.toString());
+        
     }
      
     public int getCount()

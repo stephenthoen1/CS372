@@ -21,4 +21,14 @@ public class Soup extends FoodItem{
         System.out.println("Mmm mmm good");
 
     }
+    
+     public String toString() {
+        return "Soup";
+    }
+     public boolean equals(Object o)
+     {
+         return (o.getClass().equals(Soup.class));
+     }
+     
+
 }

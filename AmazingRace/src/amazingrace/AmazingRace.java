@@ -29,7 +29,23 @@ public class AmazingRace {
 
             if (rnd.nextBoolean()) {
                 fc.addItem(new Soup(rnd.nextInt(30) + 10, rnd.nextInt(50) + 10));
-            } else {
+            } 
+            else if(rnd.nextBoolean()) {
+                fc.addItem(new Chips(rnd.nextInt(30) + 10, rnd.nextInt(50) + 10));
+            }
+            else if(rnd.nextBoolean()) {
+                fc.addItem(new Candy(rnd.nextInt(30) + 10, rnd.nextInt(50) + 10));
+            } 
+            else if(rnd.nextBoolean()) {
+                fc.addItem(new Cereal(rnd.nextInt(30) + 10, rnd.nextInt(50) + 10));
+            } 
+            else if(rnd.nextBoolean()) {
+                fc.addItem(new Fruit(rnd.nextInt(30) + 10, rnd.nextInt(50) + 10));
+            } 
+            else if(rnd.nextBoolean()) {
+                fc.addItem(new Vegetables(rnd.nextInt(30) + 10, rnd.nextInt(50) + 10));
+            } 
+            else {
                 fc.addItem(new Coffee(rnd.nextInt(50) + 10, rnd.nextInt(150) + 10));
             }
 
@@ -42,5 +58,5 @@ public class AmazingRace {
         System.out.printf("\tTotal volume: %d\n", fc.getVolume());
 
     }
-
+    
 }
