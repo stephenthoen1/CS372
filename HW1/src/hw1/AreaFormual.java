@@ -15,6 +15,7 @@ public class AreaFormual {
      * PI constant defined
      */
     public static double PI = 3.14; 
+    //use java.lang.Math.PI instead
     
     /**
      * Area calculation
