@@ -16,6 +16,8 @@ public class RandomNumbers {
      */
     public void randtest()
     {
+        //PT: As we talked about in class, it'll be better to make this a static member variable,
+        //    so that you only make one Random object during execution
         Random rand = new Random();
         int firstrand = rand.nextInt(100)+1;
         int secrand = rand.nextInt(100)+1;
