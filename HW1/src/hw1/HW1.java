@@ -17,9 +17,11 @@ public class HW1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //PT: As we discussed in class, try to make main do much less, and refactor this
+        //    code into other classes and methods.
         
         ProgramInfo.copyrightmessage(); //copywrite
-        
+        //PT: nice!
         
         //Exerise 1
         System.out.println("Exercise Number 1\n");
@@ -55,6 +57,7 @@ public class HW1 {
         System.out.println("Please Enter the Radius of the Circle: ");
         Scanner s = new Scanner(System.in);
         double x = s.nextDouble();
+        //PT: AreaFormual? Maybe AreaFormula?
         double total = AreaFormual.area(x); //Calculates the Area
         System.out.printf("The area of the circle = %-1.2f\n", total );
         
