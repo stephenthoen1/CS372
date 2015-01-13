@@ -12,7 +12,7 @@ import java.util.*;
  * @author stephenthoen
  */
 public class MathMMA {
-
+//PT -- good use of static here
     public static double Max(ArrayList<Double> list) {
         Collections.sort(list);
         return Collections.max(list);

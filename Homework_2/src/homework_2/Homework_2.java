@@ -17,8 +17,10 @@ public class Homework_2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //PT -- remove this note. The code is added
         // TODO code application logic here
 
+        //PT -- need to check that there are arguments on the command line -2
         int i = Integer.parseInt(args[0]);
 
         //Exercise PR2_1, Exercise PR2_2
