@@ -8,7 +8,7 @@ package homework3;
 import java.util.*;
 
 /**
- *
+ * Calculates the area and perimeter of a Triangle
  * @author stephenthoen
  */
 public class Triangle extends Shape {

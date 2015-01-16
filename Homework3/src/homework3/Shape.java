@@ -6,7 +6,7 @@
 package homework3;
 
 /**
- *
+ * Parent Class for Ellipse, Rectangle, Triangle.
  * @author stephenthoen
  */
 public class Shape {

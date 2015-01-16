@@ -8,7 +8,7 @@ package homework3;
 import java.util.ArrayList;
 
 /**
- *
+ *Calculates the area and perimeter for and Ellipse, Ovewrites shape.
  * @author stephenthoen
  */
 public class Ellipse extends Shape {

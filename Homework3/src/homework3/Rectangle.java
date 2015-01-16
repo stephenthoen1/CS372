@@ -8,7 +8,7 @@ package homework3;
 import java.util.ArrayList;
 
 /**
- *
+ * Calculates the area and perimeter of a rectangle
  * @author stephenthoen
  */
 public class Rectangle extends Shape {
