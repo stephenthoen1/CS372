@@ -24,6 +24,8 @@ public class Triangle extends Shape {
     public Triangle(ArrayList<Integer> list) {
         if (list.get(0) + list.get(1) <= list.get(2) || list.get(0) + list.get(2) <= list.get(1)
                 || list.get(1) + list.get(2) <= list.get(0)) {
+            //PT -- Do this System.out in UserInput, rather than here. Separate UI from code. -3
+            //   You can put your message in the exception object
             System.out.println("The sides for the triangle are not valid.");
             throw new IllegalArgumentException();
         }

@@ -5,6 +5,8 @@
  */
 package homework3;
 
+//PT -- this should be in a separate package than the other parts of HW3 -3 * 3
+//PT -- Actually, never mind. I like that this class does input for everything
 import java.util.*;
 
 /**

@@ -11,6 +11,7 @@ import java.util.*;
  */
 public class DateValidation {
     
+    //PT -- javadoc? -3
    public static ArrayList<Integer> getDate(String month, String year)
    {
        int newYear = Integer.parseInt(year);

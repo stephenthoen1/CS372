@@ -15,6 +15,8 @@ import javax.swing.table.DefaultTableModel;
  */
 public class EventCalendar extends javax.swing.JFrame {
 
+    //PT -- Events should be objects, not a long string -5
+    //PT -- no sorting? -7
     ArrayList<String> runningEventList = new ArrayList<String>();
     
     /**
