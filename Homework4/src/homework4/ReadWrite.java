@@ -18,6 +18,8 @@ import java.util.Vector;
  * @author stephenthoen
  */
 public class ReadWrite {
+    //PT -- javadoc? -4
+    //PT -- this would do so much better if a restaurant review was a class, rather than a vector of strings. -10
     public static Vector<Vector<String>> load() {
         Vector<Vector<String>> loadEvents = new Vector<Vector<String>>();
         File nf = new File("/Users/stephenthoen/GitHub/CS372/Homework4/Rest.txt");
